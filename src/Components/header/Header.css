@@ -1,0 +1,41 @@
+/* inspiruj sa react stránkou, je tam rovnako header */
+
+/* -------- reausable code --------*/
+
+.row {
+  width: 1024px;
+  margin: 0 auto;
+}
+/* -------- reausable code --------*/
+
+/* -------- header --------*/
+
+header {
+  min-height: 100px;
+  background-color: gray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar {
+  /*   display: flex; */
+  /*   background-color: rgb(165, 150, 131); */
+  /*   position: fixed; nefungovalo dobre*/
+}
+
+#Logo p {
+  position: absolute;
+  top: 2%;
+}
+
+#NamePage h1 {
+  margin: 40px;
+  font-size: 15px;
+  width: auto;
+}
+
+/* #Logo {
+  margin: 40px;
+} */
